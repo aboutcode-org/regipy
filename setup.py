@@ -22,10 +22,10 @@ def _find_version(file_path):
 
 
 def main():
-    setup(name='regipy',
+    setup(name='regipy2',
           packages=find_packages(),
           version=_find_version(os.path.abspath(os.path.join('regipy', '__init__.py'))),
-          description='Python Registry Parser',
+          description='Python Registry Parser2 - This is a temporary advanced patched package, with relaxed dependency constraints. It is there only until upstream is updated. See https://github.com/nexB/regipy/ and https://github.com/mkorman90/regipy/pull/200',
           long_description=readme,
           author='Martin G. Korman',
           author_email='martin@centauri.co.il',
